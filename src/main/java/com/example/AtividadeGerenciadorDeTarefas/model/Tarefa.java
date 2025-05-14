@@ -13,9 +13,8 @@ public class Tarefa {
 
     private String title;
     private String description;
-    private String status; // ex: TODO, IN_PROGRESS, DONE
-
-    // getters e setters
+    private String status;
+    
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
