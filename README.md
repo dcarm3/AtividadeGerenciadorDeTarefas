@@ -1,3 +1,1 @@
-Atividade Tópicos em programação
-
-Gerenciador de tarefas feito em java
+Atividade Tópicos em programação: Gerenciador de tarefas 
