@@ -1,16 +1,16 @@
 # Mini Trello API
 
-Uma API RESTful desenvolvida com Java e Spring Boot para gerenciamento de tarefas, com autenticação baseada em JWT. Funciona como uma versão simplificada do Trello, permitindo que usuários criem, listem, atualizem e excluam tarefas.
+Uma API RESTful desenvolvida com Java e Spring Boot para gerenciamento de tarefas, com autenticação baseada em JWT. 
 
 ## Tecnologias
 
-- Java 17+
-- Spring Boot 3.x
+- Java 
+- Spring Boot 
 - Spring Web
 - Spring Data JPA
 - Spring Security
-- JWT (JSON Web Tokens)
-- H2 Database (memória)
+- JWT 
+- H2 Database 
 - Jakarta EE
 
 ---
@@ -66,7 +66,7 @@ Authorization: Bearer <seu-token-jwt>
 
 ```json
 {
-  "titulo": "Estudar Spring Boot",
+  "titulo": "Estudar java",
   "descricao": "Ler documentação e praticar com projetos",
   "status": "PENDENTE"
 }
@@ -96,12 +96,12 @@ spring.h2.console.path=/h2-console
 spring.jpa.hibernate.ddl-auto=update
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.driverClassName=org.h2.Driver
-spring.datasource.username=sa
+spring.datasource.username=shrek
 spring.datasource.password=
 
 # JWT
 jwt.secret=seuSegredoSecreto1234567890
-jwt.expiration=86400000  # 24 horas
+jwt.expiration=86400000  
 ```
 
 ---
@@ -110,7 +110,7 @@ jwt.expiration=86400000  # 24 horas
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/mini-trello-api.git
+git clone https://github.com/dcarm3/AtividadeGerenciadorDeTarefas
 
 # Entre no diretório
 cd mini-trello-api
