@@ -1,6 +1,5 @@
 package com.example.AtividadeGerenciadorDeTarefas.security;
 
-import com.example.AtividadeGerenciadorDeTarefas.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

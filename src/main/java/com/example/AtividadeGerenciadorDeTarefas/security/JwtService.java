@@ -1,4 +1,4 @@
-package com.example.AtividadeGerenciadorDeTarefas.service;
+package com.example.AtividadeGerenciadorDeTarefas.security;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
