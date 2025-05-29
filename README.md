@@ -1,4 +1,4 @@
-# Mini Trello API
+# Gerenciador de tarefas
 
 Uma API RESTful desenvolvida com Java e Spring Boot para gerenciamento de tarefas, com autenticação baseada em JWT. 
 
