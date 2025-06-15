@@ -1,8 +1,8 @@
 # Gerenciador de tarefas
 
-Uma API RESTful desenvolvida com Java e Spring Boot para gerenciamento de tarefas, com autenticação baseada em JWT. 
+Uma API restful desenvolvida com Java e Spring Boot para gerenciamento de tarefas, com autenticação baseada em JWT. 
 
-## Tecnologias
+## Tecnologias usadas
 
 - Java 
 - Spring Boot 
@@ -66,8 +66,8 @@ Authorization: Bearer <seu-token-jwt>
 
 ```json
 {
-  "titulo": "Estudar java",
-  "descricao": "Ler documentação e praticar com projetos",
+  "title": "Estudar java",
+  "description": "Ler documentação e praticar com projetos",
   "status": "PENDENTE"
 }
 ```
@@ -100,7 +100,7 @@ spring.datasource.username=shrek
 spring.datasource.password=
 
 # JWT
-jwt.secret=seuSegredoSecreto1234567890
+jwt.secret=codiginsecretin12323
 jwt.expiration=86400000  
 ```
 
@@ -109,11 +109,6 @@ jwt.expiration=86400000
 ## Como rodar o projeto
 
 ```bash
-# Clone o repositório
+# Clone o repositório e rode o projeto
 git clone https://github.com/dcarm3/AtividadeGerenciadorDeTarefas
 
-# Entre no diretório
-cd mini-trello-api
-
-# Compile e execute
-./mvnw spring-boot:run
